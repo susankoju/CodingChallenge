@@ -44,7 +44,7 @@ const evalPrefix = (exp) => {
     if (expArr.length > 1) {
         return null;
     }
-    return expArr[0];
+    return parseFloat(expArr[0]);
 };
 exp = '+ 5 3';
 console.log(evalPrefix(exp));

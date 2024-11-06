@@ -19,7 +19,7 @@ const evaluate = (operator: string, leftOperand: string, rightOperand: string): 
     }
 }
 
-const evalPrefix = (exp: string) => {
+const evalPrefix = (exp: string): number | null => {
     const expArr: string[] = exp.split(' ')
     while (expArr.length >= 3) {
         let indexOfOperator = expArr.length - 1;
@@ -48,7 +48,7 @@ const evalPrefix = (exp: string) => {
         return null
     }
 
-    return expArr[0]
+    return parseFloat(expArr[0])
 }
 
 exp = '+ 5 3'
