@@ -45,3 +45,6 @@ console.log(romanToInt(romanNum));
 
 romanNum = 'MCMXCIV';
 console.log(romanToInt(romanNum));
+
+romanNum = 'XM';
+console.log(romanToInt(romanNum));
