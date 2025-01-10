@@ -3,3 +3,5 @@ const getMinCostOfStairs = (cost: number[]): number => {
 
   return minCost;
 }
+
+console.log(getMinCostOfStairs([10, 15, 20]));
