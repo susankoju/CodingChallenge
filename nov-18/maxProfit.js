@@ -12,4 +12,3 @@ const getMaxProfitPossible = (prices) => {
 };
 console.log(getMaxProfitPossible([7, 1, 5, 3, 6, 4]));
 console.log(getMaxProfitPossible([7, 6, 4, 3, 1]));
-console.log(getMaxProfitPossible([7, 1, 5, 3, 6, 4]));
